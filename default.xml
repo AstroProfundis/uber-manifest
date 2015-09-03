@@ -2,6 +2,8 @@
 <manifest>
   <remote  name="uu"
            fetch="https://github.com/UBERTC/" />
+  <remote  name="github"
+           fetch="https://github.com/" />
   <default revision="master"
            remote="uu"
            sync-j="4"
@@ -19,6 +21,6 @@
   <project path="gmp/gmp-uber" name="gmp" revision="uber" />
   <project path="mpc/mpc-uber" name="mpc" revision="uber" />
   <project path="mpfr/mpfr-uber" name="mpfr" revision="uber" />
-  <project path="scripts" name="uber-scripts" />
+  <project path="scripts" name="AstroProfundis/uber-scripts" remote="github" />
   <project path="sysroot" name="sysroot" revision="gcc-4.9" />
 </manifest>
