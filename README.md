@@ -5,7 +5,7 @@ What is UBERTC?  UBERTC is a toolchain closely based on AOSP but with latest mer
 
 To build all you have to do is sync sources:
 
-    repo init -u https://github.com/UBERTC/uber-manifest.git -b master 
+    repo init -u https://github.com/AstroProfundis/uber-manifest.git -b master 
 
 followed by
 
